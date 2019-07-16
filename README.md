@@ -55,7 +55,7 @@
 		
 		#autocorrection 
 		git diff --cached --name-only | grep .swift | while read filename; do
-			LINT autocorrect --path "$filename"
+			/usr/local/bin/swiftlint autocorrect --path "$filename"
 		done
 	        
 		exit 1
