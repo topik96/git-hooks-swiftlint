@@ -58,7 +58,7 @@
 4. Run this in your terminal
 
         chmod +x .git/hooks/pre-commit
-4. Create file .swiftlint.yml & see documentation for rules [click](https://github.com/realm/SwiftLint)
+4. Create file .swiftlint.yml & see documentation for more rules [click](https://github.com/realm/SwiftLint)
 
 
     
