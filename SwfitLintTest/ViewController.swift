@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 	}
 
 	func a() {
-
+		let a = 5;
 	}
 
 	func test(name: String) -> String {
