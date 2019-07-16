@@ -15,4 +15,11 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view.
 	}
 
+	func test(name: String) -> String {
+		var test: String = "5"
+
+		return test
+
+	}
+
 }
