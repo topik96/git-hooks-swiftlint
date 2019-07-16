@@ -14,9 +14,21 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 	}
+	
+	func a(){
+		
+		
+		
+		
+		
+		
+		
+		
+		let a = 2 as! Int
+	}
 
 	func test(name: String) -> String {
-		var test: String = "5"
+		let test: String = "5"
 
 		return test
 
