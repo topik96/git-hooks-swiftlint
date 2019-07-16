@@ -1,5 +1,7 @@
 # git-hooks_swiftlint
 
 ## Setup
-1. Open your terminal
-    brew install swiftlint 
+1. Open Terminal
+
+        brew install swiftlint 
+    
