@@ -11,7 +11,7 @@
         else
             echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
         fi
-3. Add pre-commit file (without exetension) under .git/hooks then past this script.
+3. Add pre-commit file (without exetension) under .git/hooks then paste this script.
 
         #!/bin/bash
         #
