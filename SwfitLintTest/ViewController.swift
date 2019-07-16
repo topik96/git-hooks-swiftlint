@@ -16,18 +16,9 @@ class ViewController: UIViewController {
 	}
 
 	func a() {
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		let a = 5;
+
+		let yourNumber:Int = 5
+		print(yourNumber)
 	}
 
 	func test(name: String) -> String {
