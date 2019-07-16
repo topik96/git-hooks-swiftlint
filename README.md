@@ -52,8 +52,13 @@
 	        done <<< "$RESULT"
 
 	        printf "\nCOMMIT ABORTED. Please fix them before commiting.\n"
-
-	        exit 1
+		
+		#autocorrection 
+		git diff --cached --name-only | grep .swift | while read filename; do
+			/usr/local/bin/swiftlint autocorrect --path "$filename"
+		done
+	        
+		exit 1
         fi
 4. Run this in your terminal
 
