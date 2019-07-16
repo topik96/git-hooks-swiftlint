@@ -14,17 +14,9 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 	}
-	
-	func a(){
-		
-		
-		
-		
-		
-		
-		
-		
-		let a = 2 as! Int
+
+	func a() {
+
 	}
 
 	func test(name: String) -> String {
